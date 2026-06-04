@@ -1,16 +1,79 @@
-# React + Vite
+# Modern Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually stunning, high-performance agency landing page built with **React 19**, **Vite**, and **Tailwind CSS**. This project features smooth animations, pixel-perfect layouts, and a modern aesthetic designed to showcase brand progress and collaborative partnerships.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Typography:** Syne & Space Grotesk (Custom fonts)
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design:** Optimized for all screen sizes, from mobile to ultra-wide displays.
+- **Smooth Animations:** Entrance animations and scroll-triggered transitions using Framer Motion.
+- **Dynamic UI Components:**
+  - **Modern Navbar:** Fixed header with smooth navigation.
+  - **Hero Section:** Impactful first impression with custom decorative elements.
+  - **About Section:** Multi-row layout with unique "curved line" decorations and radial gradients.
+  - **Services Section:** Interactive hover-states and custom SVG iconography.
+  - **Testimonials:** "Social proof" section with scattered avatar overlays and a featured client card.
+  - **Footer:** Integrated newsletter signup and organized link grid.
+- **Custom Aesthetics:** Unique color palette (`brand-yellow`, `brand-green`, `brand-pink`, `brand-bg`) and stylized shapes for a premium look.
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd new-folder
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/          # Reusable UI components
+│   ├── AboutSection.jsx # Detailed about section with animations
+│   ├── Hero.jsx         # Main splash screen
+│   ├── Navbar.jsx       # Navigation header
+│   ├── ServicesSection.jsx # Services list and testimonials
+│   └── footer.jsx       # Footer and Newsletter components
+├── assets/              # Static images and icons
+├── App.jsx              # Main application entry point
+├── main.jsx             # React DOM rendering
+└── index.css            # Global styles and Tailwind directives
+```
+
+## 🎨 Customization
+
+Colors and themes can be customized in the `tailwind.config.js` or through the modern Tailwind v4 `@theme` directives in `src/index.css`.
+
+## 📄 License
+
+This project is private and intended for demonstration purposes.
